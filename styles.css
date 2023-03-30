@@ -1,0 +1,250 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 104px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 100px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.logo-image {
+    width: 468px;
+    height: 400px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 110px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 61px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #848 484;
+    width: 515px; /*delimitar o quanto vai crescer*/
+    text-align: justify;
+    margin-top: 32px;
+    margin-bottom: 55px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+
+@media only screen and (max-width: 1023px) {  
+
+    header {
+        margin: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link-header {
+        font-size: 22px;
+        line-height: 40px;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .logo-image {
+        margin: 80px auto;
+        display: block;
+        max-width: 80%;
+        height: 400px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 55px;
+        color: #515151;
+        margin: 50px 50px 30px 50px;
+        text-align: center;
+        line-height: 20px;
+
+    }
+    
+    h2 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 61px;
+        color: #515151;
+        margin: 50px 50px 30px 50px;
+        text-align: center;
+    }
+    
+    p {
+        margin: 22px 80px;
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 24px;
+        line-height: 30px;
+    }
+
+    .button-main {
+        margin: 20px auto;
+        display: block;
+        height: 54px;
+        width: 200px;
+        font-size: 26px;
+               
+    }
+}
+
+@media only screen and (max-width: 900px){  
+    header {
+        margin: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link-header {
+        font-size: 20px;
+        line-height: 35px;
+        cursor: pointer;
+        margin: 15px;
+    }
+
+    .logo-image {
+        margin: 80px auto;
+        display: block;
+        max-width: 80%;
+        height: 400px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 45px;
+        color: #515151;
+        margin: 50px 50px;
+        text-align: center;
+        line-height: 20px;
+
+    }
+    
+    h2 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 61px;
+        color: #515151;
+        margin: 50px 50px 30px 50px;
+        text-align: center;
+    }
+    
+    p {
+        margin: 22px 80px;
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 24px;
+        line-height: 30px;
+    }
+
+    .button-main {
+        margin: 20px auto;
+        display: block;
+        height: 54px;
+        width: 200px;
+        font-size: 26px;
+               
+    }
+}
+
+/*
+@media only screen and (max-width: 565px){ 
+        
+    .container-left {
+        height: 70%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 52px;
+        width: auto;
+        margin: 50px 50px 0 50px;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    p {
+        margin: 15px 25px;
+        width: auto;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 24px;
+        line-height: 24px;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block; /*pra alinhar o botão colocamos margin em cima e embaixo 0 e dos lados auto, pra ele ficar no meio tem que ser display block*/
+        /*width: 180px;
+        height: 38px;
+        font-size: 22px;
+    }
+
+    img {
+        position: static;
+        max-width: 80%; /*máximo q vai crescer*/
+        /*height: 280px;
+   }
+}*/
